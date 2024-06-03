@@ -1,8 +1,10 @@
 # PDF to Audiobook Converter
 
-Welcome to the PDF to Audiobook Converter! This application converts PDF documents into audiobooks using Google's gTTS (Google Text-to-Speech) API. The project is built using Flask, Python, and SQLite.
+Welcome to the PDF to Audiobook Converter! This application converts PDF documents into audiobooks using Google's gTTS (Google Text-to-Speech) API or OpenAI. 
 
-![PDF to Audiobook Converter Preview](converter.gif)
+The project is built using Flask, Python, and SQLite.
+
+![PDF to Audiobook Converter Preview](converter.png)
 
 ## Table of Contents
 
