@@ -5,7 +5,7 @@ This application helps you learn French words through an interactive flash card 
 The project was developed using Python's Tkinter library for the GUI and pandas for data manipulation.
 This project was developed as part of the 100 DaysOf Code challenge.
 
-![Flash Card Learner Preview](path/to/your/flashcard.gif)
+![Flash Card Learner Preview](flashcard.gif)
 
 ## Table of Contents
 
