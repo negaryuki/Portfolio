@@ -1,4 +1,3 @@
-```markdown
 # Breakout Game
 
 Welcome to the Breakout Game! This project is a classic implementation of the Breakout game using Python's Turtle graphics library.
