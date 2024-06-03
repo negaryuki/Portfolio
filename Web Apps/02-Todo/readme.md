@@ -2,7 +2,7 @@
 
 Welcome to the Todo Schedule App! This application helps users manage their tasks and schedules efficiently. The project is built using Flask, Python, and SQLite.
 
-![Todo Schedule App Preview](path/to/your/todo.gif)
+![Todo Schedule App Preview](todo.gif)
 
 ## Table of Contents
 
