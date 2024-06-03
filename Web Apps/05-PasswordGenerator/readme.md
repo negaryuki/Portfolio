@@ -6,7 +6,7 @@ The project was developed using Python's Tkinter library for the GUI and pypercl
 This project was developed as part of the 100 Days Of Code challenge.
 
 
-![Password Generator Preview](PasswordGenerator.gif)
+![Password Generator Preview](PassGenerator.gif)
 
 ## Table of Contents
 
