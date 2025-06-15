@@ -1,10 +1,14 @@
 ### 🐍 `organizer.py`
 
 ```python
-import os
-import shutil
-import sys
-from pathlib import Path
+
+
+
+
+import os                        #os: Provides a way to interact with the operating system.
+import shutil                    #shutil: Used for high-level file operations like copying or moving files.
+import sys                       #sys: Lets us access command-line arguments.
+from pathlib import Path         #pathlib.Path: Modern, object-oriented way to work with file paths.
 
 # Map file types to folders
 FILE_TYPES = {
@@ -17,11 +21,19 @@ FILE_TYPES = {
     'Others': []
 }
 
+
+# Takes a file extension like .jpg as input
+# looks for FILE_TYPES
+# if found it returns the catergorym else 'it defaults to 'Others'
 def get_category(file_ext):
     for category, extensions in FILE_TYPES.items():
         if file_ext.lower() in extensions:
             return category
     return 'Others'
+
+
+# Converts the input path to a PATH Object
+# Check if the path is a valid folder
 
 def organize_folder(path):
     path = Path(path)
